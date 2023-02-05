@@ -1,0 +1,42 @@
+$p-40: 40px;
+
+#root {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: aliceblue;
+}
+
+.App {
+  min-height: 100%;
+  padding: $p-40;
+
+  & > .MuiPaper-root {
+    padding: $p-40;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $p-40;
+  }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.align-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
